@@ -20,11 +20,8 @@ let booleanIsLoggedIn = Boolean(isLoggedin);
 // "" => false
 // "mayank" => true
 
-let someNumer = 33
+/*let someNumer = 33
 
 let stringNumber = string(someNumber)
 console.log(stringNumber);
-console.log(typeof stringNumber);
-
-
-
+console.log(typeof stringNumber); */
