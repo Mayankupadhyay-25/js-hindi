@@ -3,6 +3,7 @@
 // 7 type : String, Number, Boolearn, Null, Undefined, 
 // Symbol, BigInt
 
+/* 
 const score = 100
 const scoreValue = 100.3
 
@@ -41,5 +42,31 @@ console.log(typeof scoreValue);
 console.log(typeof myfunction);
 console.log(heros);
 console.log(myObj);
+*/
+
+//  +++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive), heap (non-primitive)
+
+let myName = "mayank"
+
+let anothername = myName
+anothername ="satyam"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    email: "magank@gamil.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
