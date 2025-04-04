@@ -7,4 +7,4 @@ console.log(`hello my name is ${name} and my repo count is
     ${repocount}`); // this is morden way of syntex it's known as (string interpolation)
     
     // another way of declearing string is:
-    const gameName = new String('mayankkk')    
+    const gameName = new String('mayankkk')
