@@ -29,7 +29,9 @@ console.log(JsUser)
 JsUser.greeting = function(){   
     console.log("hello mayank")
 }
+JsUser.greetingtwo = function(){   
+    console.log(`hello mayank ${this.name}`)   
+}
 
-console.log(JsUser.greeting) // hello mayank;
-console.log(JsUser.greeting()) 
-
+console.log(JsUser.greeting()) // hello mayank
+console.log(JsUser.greetingtwo()) // hello mayank mayank Upadhyay;
