@@ -44,9 +44,30 @@ const obj4 = {5:"a", 6: "b"}
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(object.keys(tinderUser)); // [ 'id', 'name', 'isloggedIn' ]
-console.log(object.enries(tinderUser));
+// console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isloggedIn' ]
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasowncprperty); // [ '1324abc', 'mayank', false ]
+//  console.log(tinderUser.hasOwnProperty("islogged")); // [ '1324abc', 'mayank', false ]
+
+ 
+ const course ={
+    coursename:"javascript",
+    courseprice:"2000",
+    courseInstructor: "mayank",
+ }
+
+ //  Course : CourseInstructor
+
+ const { courseInstructor:Instructor} = course // destructuring object
+ 
+ console.log(Instructor); // undefined
+
+ {
+    "name": "mayank",
+    "coursename: "javascript",
+    "courseprice": "free",  
+
+ }
