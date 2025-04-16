@@ -65,8 +65,8 @@ users[1].email
  
  console.log(Instructor); // undefined
 
-//  {
-//     "name": "mayank",
-//     "coursename: "javascript",
-//     "price": "free",  
-//  }
+ {
+    "name": "mayank",
+    "coursename: "javascript",
+    "price": "free",  
+ }
