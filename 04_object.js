@@ -68,6 +68,5 @@ users[1].email
  {
     "name": "mayank",
     "coursename: "javascript",
-    "courseprice": "free",  
-
+    "price": "free",  
  }
